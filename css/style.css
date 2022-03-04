@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: arial;
+	width: 100%;
+	height: 100vh;
+	background-color: #3333;
+	position: relative;
+}
+.fullSection {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 600px;
+	height: 400px;
+	background-color: #3335;
+	box-sizing: border-box;
+}
+
+.inputText {
+	width: 100%;
+	height: 88%;
+	border: none;
+	outline: none;
+	padding: 15px;
+	font-size: 20px;
+	box-sizing: border-box;
+	resize: none;
+	font-family: initial;
+}
+
+.footerDiv {
+	width: 100%;
+	height: 12%;
+	background-color: #5f636940;
+	margin-top: -4px;
+	position: relative;
+}
+.footerDiv button {
+	position: absolute;
+	padding: 10px 15px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #498AF4;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	cursor: pointer;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.footerDiv button:first-child {
+	left: 10px;
+}
+.footerDiv button:last-child {
+	background-color: #FB542B;
+	right: 10px;
+}
+
+.footerDiv button:first-child:active {
+	background-color: #327af1;
+}
+.footerDiv button:last-child:active {
+	background-color: #fd4518;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
